@@ -70,7 +70,7 @@ search: snippets -> javascript.json
 	"description": "Code snippet for 'alert'"
 },
 "confirm": {
-"prefix": "confirm",
+	"prefix": "confirm",
 	"body": [
     	"confirm('${1:msg}');"
 	],
