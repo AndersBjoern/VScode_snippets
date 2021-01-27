@@ -63,32 +63,32 @@ search: snippets -> javascript.json
 	"description": "Sets end point for execution time measurement"
 },
 "alert": {
-"prefix": "alert",
-"body": [
-    "alert('${1:msg}');"
-],
-"description": "Code snippet for 'alert'"
+	"prefix": "alert",
+	"body": [
+    	"alert('${1:msg}');"
+	],
+	"description": "Code snippet for 'alert'"
 },
 "confirm": {
 "prefix": "confirm",
-"body": [
-    "confirm('${1:msg}');"
-],
-"description": "Code snippet for 'confirm'"
+	"body": [
+    	"confirm('${1:msg}');"
+	],
+	"description": "Code snippet for 'confirm'"
 },
 "prompt": {
-"prefix": "prompt",
-"body": [
-    "prompt('${1:msg}');"
-],
-"description": "Code snippet for 'prompt'"
+	"prefix": "prompt",
+	"body": [
+    	"prompt('${1:msg}');"
+	],
+	"description": "Code snippet for 'prompt'"
 },
 "Const arrow function": {
 	"prefix": "carrow",
 	"body": [
-		"const ${1:functionName} = ($2) => {",
-		"    $3",
-		"}"
+	"const ${1:functionName} = ($2) => {",
+	"    $3",
+	"}"
 	],
 	"description": "Const arrow function"
 },
@@ -105,11 +105,11 @@ search: snippets -> javascript.json
 "Map funciton": {
 	"prefix": ".mapfunction",
 	"body": [
-		"map( ",
-		"    function(x){ ",
-		"        $1",
-		"    }",
-		");"
+	"map( ",
+	"    function(x){ ",
+	"        $1",
+	"    }",
+	");"
 	],
 	"description": "Map funciton"
 },
@@ -123,43 +123,43 @@ search: snippets -> javascript.json
 	"description": "Array Method"
 },
 "getElementById": {
-"prefix": "document.getId",
-"body": [
-    "document.getElementById('${2:id}');"
-],
-"description": "Code snippet for \"getElementById\""
+	"prefix": "document.getId",
+	"body": [
+    	"document.getElementById('${2:id}');"
+	],
+	"description": "Code snippet for \"getElementById\""
 },
 "getElementsByClassName": {
-"prefix": "document.getClass",
-"body": [
-    "document.getElementsByClassName('${2:class}');"
-],
-"description": "Code snippet for \"getElementsByClassName\""
+	"prefix": "document.getClass",
+	"body": [
+    	"document.getElementsByClassName('${2:class}');"
+	],
+	"description": "Code snippet for \"getElementsByClassName\""
 },
 "querySelectorAll": {
-"prefix": "document.getAll",
-"body": [
-    "document.querySelectorAll('${2:selector}');"
-],
-"description": "Code snippet for \"querySelectorAll\""
+	"prefix": "document.getAll",
+	"body": [
+	"document.querySelectorAll('${2:selector}');"
+	],
+	"description": "Code snippet for \"querySelectorAll\""
 },
 "setInterval": {
-"prefix": "setInterval",
-"body": [
-    "setInterval(() => {",
-    "\t${0:// body}",
-    "}, ${1:1000});"
-],
-"description": "Code snippet for 'setInterval'"
+	"prefix": "setInterval",
+	"body": [
+	"setInterval(() => {",
+	"\t${0:// body}",
+	"}, ${1:1000});"
+	],
+	"description": "Code snippet for 'setInterval'"
 },
 "setTimeout": {
-"prefix": "setTimeout",
-"body": [
-    "setTimeout(() =>{",
-    "\t${0:// body}",
-    "}, ${1:1000});"
-],
-"description": "Code snippet for 'setTimeout'"
+	"prefix": "setTimeout",
+	"body": [
+	"setTimeout(() =>{",
+	"\t${0:// body}",
+	"}, ${1:1000});"
+	],
+	"description": "Code snippet for 'setTimeout'"
 },
 "Class Template": {
 	"prefix": "class_template",
